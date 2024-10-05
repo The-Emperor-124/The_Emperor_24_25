@@ -82,9 +82,7 @@ public class BasicTeleOp extends LinearOpMode {
 
             leftMotor.setPower(drive + turn);
             rightMotor.setPower(drive + turn);
-
-
-            telemetry.addData("Status", "Running");
+            
             telemetry.update();
         }
     }
